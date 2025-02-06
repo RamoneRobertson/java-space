@@ -6,5 +6,13 @@ public class Main {
             }
             System.out.println();
         }
+
+        int [] nums = {12, 34, 56, 78, 90};
+        int sum = 0;
+        for(int num : nums){
+            sum += num;
+        }
+
+        System.out.println(sum);
     }
 }
