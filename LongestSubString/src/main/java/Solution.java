@@ -33,6 +33,8 @@ public class Solution {
                 // Shrink the window by moving left 1 step
                 left++;
             }
+
+            // calculte the max length of the window (either a previos substring length or the current size of the window)
             maxLength = Math.max(maxLength, right - left + 1);
             right++;
         }
